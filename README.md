@@ -147,3 +147,12 @@ deployment "notification-controller" successfully rolled out
 ✔ bootstrap finished
 ```
 
+
+
+# add GCP Secret!
+
+```
+kubectl create secret generic gcp-creds -n crossplane-system --from-file=creds=credentials.json
+```
+for now created from command line using `credentials.json`
+This can propably need to be automated or handle via mozilla SOPS,etc...
