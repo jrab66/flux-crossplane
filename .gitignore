@@ -2,3 +2,4 @@ credentials.json
 kubeconfig*
 github*
 temp/**
+misc/creds.json

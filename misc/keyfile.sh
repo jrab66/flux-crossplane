@@ -1,7 +1,7 @@
-
+#!/bin/bash
 # replace this with your own gcp project id and the name of the # service account
 # that will be created.
-PROJECT_ID=demo-flux-crossplane
+PROJECT_ID=snappy-figure-307417
 NEW_SA_NAME=demo-flux-service-account
 
 # create service account
