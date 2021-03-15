@@ -2,7 +2,7 @@
 apiVersion: database.gcp.crossplane.io/v1beta1
 kind: CloudSQLInstance
 metadata:
-  name: cloudsqlpostgresql
+  name: cloudsqlpostgresql-1
   namespace: crossplane-system
 spec:
   providerConfigRef:
